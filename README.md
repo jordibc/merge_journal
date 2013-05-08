@@ -3,19 +3,20 @@ Read several "journal" files and output a merged version.
 These "journal" files are files that I write as, well, a journal. They
 are simple text files that follow the format:
 
-  01 May 2013
-  -----------
+<pre>
+01 May 2013
+-----------
 
-  Bla bla bla
+Bla bla bla
 
-  Etc
+Etc
 
 
-  07 May 2013
-  -----------
+07 May 2013
+-----------
 
-  Even more bla bla bla.
-
+Even more bla bla bla.
+</pre>
 
 I write them in different machines, and so it is convenient to have
 this program to merge them form time to time.
